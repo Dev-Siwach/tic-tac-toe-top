@@ -17,18 +17,26 @@
       </div>
       <dialog id="newGameDialog">
         <div id="newGameDialogDiv">
-          <input
-            type="text"
-            name="playerOneName"
-            value="playerOne"
-            id="playerOneNameInput"
-          />
-          <input
-            type="text"
-            name="playerTwoName"
-            value="playerTwo"
-            id="playerTwoNameInput"
-          />
+          <div id="dialogInputs">
+            <input
+              type="text"
+              name="playerOneName"
+              value="playerOne"
+              id="playerOneNameInput"
+            />
+            <input
+              type="text"
+              name="playerTwoName"
+              value="playerTwo"
+              id="playerTwoNameInput"
+            />
+          </div>
+          <div id="dialogButtons">
+            <button type="button" id="startGameButton">Start</button>
+            <button type="button" id="closeDialogButton" autofocus>
+              Close
+            </button>
+          </div>
         </div>
       </dialog>
       <div id="gameBoard"></div>
